@@ -16,7 +16,7 @@
     "@repo/analytics": "*",
     "@repo/auth": "*",
     "@repo/database": "*",
-    "@repo/design-system": "*",
+    "@dmg/ui-lab": "*",
     "@repo/next-config": "*",
     "@repo/observability": "*",
     "@repo/payments": "*",

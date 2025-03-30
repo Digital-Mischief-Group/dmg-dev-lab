@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
 import {
   AlertDialog,
@@ -10,16 +10,16 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@repo/design-system/components/ui/alert-dialog';
+} from "../../../packages/ui-lab/components/ui/alert-dialog";
 
 /**
  * A modal dialog that interrupts the user with important content and expects
  * a response.
  */
 const meta = {
-  title: 'ui/AlertDialog',
+  title: "ui/AlertDialog",
   component: AlertDialog,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   render: (args) => (
     <AlertDialog {...args}>
@@ -40,7 +40,7 @@ const meta = {
     </AlertDialog>
   ),
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
 } satisfies Meta<typeof AlertDialog>;
 

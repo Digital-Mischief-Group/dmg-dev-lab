@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { Mail, Plus, PlusCircle, Search, UserPlus } from 'lucide-react';
+import type { Meta, StoryObj } from "@storybook/react";
+import { Mail, Plus, PlusCircle, Search, UserPlus } from "lucide-react";
 
 import {
   DropdownMenu,
@@ -17,16 +17,16 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from '@repo/design-system/components/ui/dropdown-menu';
+} from "../../../packages/ui-lab/components/ui/dropdown-menu";
 
 /**
  * Displays a menu to the user — such as a set of actions or functions —
  * triggered by a button.
  */
 const meta = {
-  title: 'ui/DropdownMenu',
+  title: "ui/DropdownMenu",
   component: DropdownMenu,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   render: (args) => (
     <DropdownMenu {...args}>
@@ -42,7 +42,7 @@ const meta = {
     </DropdownMenu>
   ),
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
 } satisfies Meta<typeof DropdownMenu>;
 

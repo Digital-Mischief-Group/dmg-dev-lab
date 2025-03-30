@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { useMemo } from 'react';
+import type { Meta, StoryObj } from "@storybook/react";
+import { useMemo } from "react";
 import {
   Area,
   AreaChart,
@@ -12,56 +12,56 @@ import {
   Pie,
   PieChart,
   XAxis,
-} from 'recharts';
+} from "recharts";
 
 import {
   type ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from '@repo/design-system/components/ui/chart';
+} from "../../../packages/ui-lab/components/ui/chart";
 
 const multiSeriesData = [
-  { month: 'January', desktop: 186, mobile: 80 },
-  { month: 'February', desktop: 305, mobile: 200 },
-  { month: 'March', desktop: 237, mobile: 120 },
-  { month: 'April', desktop: 73, mobile: 190 },
-  { month: 'May', desktop: 209, mobile: 130 },
-  { month: 'June', desktop: 214, mobile: 140 },
+  { month: "January", desktop: 186, mobile: 80 },
+  { month: "February", desktop: 305, mobile: 200 },
+  { month: "March", desktop: 237, mobile: 120 },
+  { month: "April", desktop: 73, mobile: 190 },
+  { month: "May", desktop: 209, mobile: 130 },
+  { month: "June", desktop: 214, mobile: 140 },
 ];
 
 const multiSeriesConfig = {
   desktop: {
-    label: 'Desktop',
-    color: 'hsl(var(--chart-1))',
+    label: "Desktop",
+    color: "hsl(var(--chart-1))",
   },
   mobile: {
-    label: 'Mobile',
-    color: 'hsl(var(--chart-2))',
+    label: "Mobile",
+    color: "hsl(var(--chart-2))",
   },
 } satisfies ChartConfig;
 
 const singleSeriesData = [
-  { browser: 'chrome', visitors: 275, fill: 'var(--color-chrome)' },
-  { browser: 'safari', visitors: 200, fill: 'var(--color-safari)' },
-  { browser: 'other', visitors: 190, fill: 'var(--color-other)' },
+  { browser: "chrome", visitors: 275, fill: "var(--color-chrome)" },
+  { browser: "safari", visitors: 200, fill: "var(--color-safari)" },
+  { browser: "other", visitors: 190, fill: "var(--color-other)" },
 ];
 
 const singleSeriesConfig = {
   visitors: {
-    label: 'Visitors',
+    label: "Visitors",
   },
   chrome: {
-    label: 'Chrome',
-    color: 'hsl(var(--chart-1))',
+    label: "Chrome",
+    color: "hsl(var(--chart-1))",
   },
   safari: {
-    label: 'Safari',
-    color: 'hsl(var(--chart-2))',
+    label: "Safari",
+    color: "hsl(var(--chart-2))",
   },
   other: {
-    label: 'Other',
-    color: 'hsl(var(--chart-5))',
+    label: "Other",
+    color: "hsl(var(--chart-5))",
   },
 } satisfies ChartConfig;
 
@@ -69,9 +69,9 @@ const singleSeriesConfig = {
  * Beautiful charts. Built using Recharts. Copy and paste into your apps.
  */
 const meta = {
-  title: 'ui/Chart',
+  title: "ui/Chart",
   component: ChartContainer,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   args: {
     children: <div />,
@@ -236,7 +236,7 @@ export const DoughnutChart: Story = {
           >
             <Label
               content={({ viewBox }) => {
-                if (viewBox && 'cx' in viewBox && 'cy' in viewBox) {
+                if (viewBox && "cx" in viewBox && "cy" in viewBox) {
                   return (
                     <text
                       x={viewBox.cx}

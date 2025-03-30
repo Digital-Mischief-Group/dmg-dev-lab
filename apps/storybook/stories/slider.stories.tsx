@@ -1,14 +1,14 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
-import { Slider } from '@repo/design-system/components/ui/slider';
+import { Slider } from "../../../packages/ui-lab/components/ui/slider";
 
 /**
  * An input where the user selects a value from within a given range.
  */
 const meta = {
-  title: 'ui/Slider',
+  title: "ui/Slider",
   component: Slider,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   args: {
     defaultValue: [33],

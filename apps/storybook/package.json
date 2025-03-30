@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@repo/design-system": "*",
+    "@dmg/ui-lab": "*",
     "@storybook/addon-actions": "^8.6.4",
     "cmdk": "^1.0.0",
     "date-fns": "^4.1.0",

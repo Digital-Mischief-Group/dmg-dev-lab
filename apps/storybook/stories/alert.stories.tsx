@@ -1,27 +1,27 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { AlertCircle } from 'lucide-react';
+import type { Meta, StoryObj } from "@storybook/react";
+import { AlertCircle } from "lucide-react";
 
 import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from '@repo/design-system/components/ui/alert';
+} from "../../../packages/ui-lab/components/ui/alert";
 
 /**
  * Displays a callout for user attention.
  */
 const meta = {
-  title: 'ui/Alert',
+  title: "ui/Alert",
   component: Alert,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {
     variant: {
-      options: ['default', 'destructive'],
-      control: { type: 'radio' },
+      options: ["default", "destructive"],
+      control: { type: "radio" },
     },
   },
   args: {
-    variant: 'default',
+    variant: "default",
   },
   render: (args) => (
     <Alert {...args}>
@@ -55,6 +55,6 @@ export const Destructive: Story = {
     </Alert>
   ),
   args: {
-    variant: 'destructive',
+    variant: "destructive",
   },
 };

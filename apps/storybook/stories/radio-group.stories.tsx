@@ -1,22 +1,22 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
 import {
   RadioGroup,
   RadioGroupItem,
-} from '@repo/design-system/components/ui/radio-group';
+} from "../../../packages/ui-lab/components/ui/radio-group";
 
 /**
  * A set of checkable buttons—known as radio buttons—where no more than one of
  * the buttons can be checked at a time.
  */
 const meta = {
-  title: 'ui/RadioGroup',
+  title: "ui/RadioGroup",
   component: RadioGroup,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   args: {
-    defaultValue: 'comfortable',
-    className: 'grid gap-2 grid-cols-[1rem_1fr] items-center',
+    defaultValue: "comfortable",
+    className: "grid gap-2 grid-cols-[1rem_1fr] items-center",
   },
   render: (args) => (
     <RadioGroup {...args}>

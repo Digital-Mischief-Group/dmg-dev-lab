@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
 import {
   Drawer,
@@ -9,15 +9,15 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from '@repo/design-system/components/ui/drawer';
+} from "../../../packages/ui-lab/components/ui/drawer";
 
 /**
  * A drawer component for React.
  */
 const meta: Meta<typeof Drawer> = {
-  title: 'ui/Drawer',
+  title: "ui/Drawer",
   component: Drawer,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   render: (args) => (
     <Drawer {...args}>
@@ -44,7 +44,7 @@ const meta: Meta<typeof Drawer> = {
     </Drawer>
   ),
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
 };
 

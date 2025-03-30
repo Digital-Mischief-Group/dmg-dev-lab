@@ -40,7 +40,7 @@
     "@react-three/fiber": "^9.1.0",
     "@types/three": "^0.174.0",
     "commander": "^13.1.0",
-    "three": "^0.174.0"
+    "three": "^0.175.0"
   },
   "type": "module",
   "workspaces": ["apps/*", "packages/*"]

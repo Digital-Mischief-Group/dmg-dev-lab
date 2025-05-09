@@ -1,0 +1,53 @@
+---
+description: AI rules derived by SpecStory from the project AI interaction history
+globs: *
+---
+
+## PROJECT SETUP
+
+### Project Directory Structure
+
+The project should use the following directory structure for a Next.js project with React components for an AI agent interface:
+
+```bash
+mkdir -p app components/agent components hooks lib
+```
+
+## TECH STACK
+
+* Next.js
+* React
+* lru-cache
+* next/font/google
+* next/cache
+* next/server
+* motion
+* @/components/ui/tabs
+
+
+## WORKFLOW & RELEASE RULES
+
+Workflow rules should be defined based on project needs. Server actions (`actions.tsx`) and client-side components for API interaction are included in the example code.  API calls should include timeout mechanisms (e.g., `AbortSignal.timeout`).  Rate limiting should be implemented to prevent abuse (see `rate-limit.ts` example).  All API calls should use `API_TIMEOUT` constant for timeout.
+
+## DEBUGGING
+
+Robust debugging strategies should be added as needed. The example code includes logging within the API interaction functions.
+
+## CODING STANDARDS
+
+Coding style guidelines should be established and enforced. The example code uses TypeScript and follows functional component patterns.  Use consistent naming conventions for components, functions, and variables.  JSDoc-style comments should be used to document all components, functions, and variables.
+
+## PROJECT DOCUMENTATION & CONTEXT SYSTEM
+
+A comprehensive documentation strategy should be adopted (e.g., using Storybook or similar tools). Version updates should be tracked. The example includes JSDoc-style comments within the code.  All components should have clear JSDoc-style comments explaining their purpose, parameters, and return values.  The project uses a `metadata` object in the `layout.tsx` file to define the title and description of the application.  The `Inter` font from `next/font/google` is used for the application.
+
+## REFERENCES
+
+* next/font/google
+* next/cache
+* next/server
+* `lru-cache` (for rate limiting)
+* `AbortSignal.timeout` (for API call timeout)
+* `revalidatePath` (for cache invalidation)
+* `motion` (for animations)
+* `@/components/ui/tabs` (for UI components)

@@ -1,0 +1,6 @@
+# SpecStory project identity file
+.specstory/.project.json
+# SpecStory explanation file
+.specstory/.what-is-this.md
+# SpecStory derived-cursor-rules.mdc backup files
+.specstory/ai_rules_backups/*

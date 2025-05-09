@@ -1,0 +1,39 @@
+---
+description: AI rules derived by SpecStory from the project AI interaction history
+globs: *
+---
+
+## AI Coding Assistant Rules
+
+This document outlines the rules, standards, and best practices for the AI coding assistant.  It is a living document and will be updated as needed.
+
+
+## TECH STACK
+
+* Python 3.9+
+* Next.js (added 2025-05-07)
+
+
+## PROJECT DOCUMENTATION & CONTEXT SYSTEM
+
+* All code must be well-commented.
+
+
+## CODING STYLE GUIDE
+
+* Follow PEP 8 guidelines.
+
+
+## DEBUGGING
+
+* Utilize print statements for debugging.
+
+
+## WORKFLOW & RELEASE RULES
+
+* (No changes from new interactions)
+
+
+## REFERENCES
+
+* (No changes from new interactions)

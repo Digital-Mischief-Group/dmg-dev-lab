@@ -1,0 +1,38 @@
+
+## AI Coding Assistant Rules
+
+This document outlines the rules, standards, and best practices for the AI coding assistant.  It is a living document and will be updated as needed.
+
+
+## TECH STACK
+
+* Python 3.9+
+*  (No changes from new interactions)
+
+
+## PROJECT DOCUMENTATION & CONTEXT SYSTEM
+
+* All code must be well-commented.
+*  (No changes from new interactions)
+
+
+## CODING STYLE GUIDE
+
+* Follow PEP 8 guidelines.
+* (No changes from new interactions)
+
+
+## DEBUGGING
+
+* Utilize print statements for debugging.
+* (No changes from new interactions)
+
+
+## WORKFLOW & RELEASE RULES
+
+* (No changes from new interactions)
+
+
+## REFERENCES
+
+* (No changes from new interactions)

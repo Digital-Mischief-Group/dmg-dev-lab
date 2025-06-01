@@ -13,7 +13,7 @@
     "@react-email/components": "0.0.33",
     "@repo/email": "*",
     "react": "19.0.0",
-    "react-email": "3.0.7"
+    "react-email": "4.0.15"
   },
   "devDependencies": {
     "@repo/typescript-config": "*",
